@@ -165,10 +165,19 @@ img{
 	right: 0;
 	bottom: 0;
 	margin: auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 .brinci_content {
 	text-align: center;
@@ -226,9 +235,15 @@ img{
 	background: #FFFFFF;
 	border-radius: 10px;
 	padding: 50px 50px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	margin-bottom: 40px;
 }
 
@@ -310,7 +325,8 @@ img{
 .form-select:focus {
 	border-color: transparent !important;
 	outline: 0;
-	box-shadow: 0 0 0 0 rgba(13,110,253,.25) !important;
+	-webkit-box-shadow: 0 0 0 0 rgba(13,110,253,.25) !important;
+	        box-shadow: 0 0 0 0 rgba(13,110,253,.25) !important;
 }
 
 
@@ -334,15 +350,23 @@ img{
 }
 
 .over_footer_section .row {
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .over_footer {
 	text-align: center;
 }
 .over_footer ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 }
 .over_footer p {
 	font-style: normal;
@@ -384,9 +408,15 @@ img{
 	padding-bottom: 30px;
 }
 .social ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-	justify-content: flex-start;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
 }
 .social ul li a {
 	margin-right: 25px;
